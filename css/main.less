@@ -1,0 +1,30 @@
+* {
+    /*当用户点击iOS的Safari浏览器中的链接或JavaScript的可点击的元素时，覆盖显示的高亮颜色。
+该属性可以只设置透明度。如果未设置透明度，iOS Safari使用默认的透明度。当透明度设为0，则会禁用此属性；当透明度设为1，元素在点击时不可见。*/
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    padding: 0;
+    margin: 0;
+	/*系统默认菜单被禁用*/
+    -webkit-touch-callout: none; 
+}
+.app{
+    h1{
+        width: 100%;
+        font-size: 14px;
+        margin: 20px auto;
+        text-align: center;
+    }
+    #box{
+        width: 90%;
+        height: 300px;
+        margin-left: 5%;
+        box-sizing: border-box;
+        border: 1px solid #f66;
+    }
+    #cameraBtn{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 20px;
+        height: 50px;
+    }
+}
